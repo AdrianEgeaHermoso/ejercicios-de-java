@@ -8,15 +8,15 @@
  
  public class Ejercicio3Columna {
   public static void main(String[] args) {
-    System.out.printf("\ncomputerordenador");
-    System.out.printf("\nstudent\talumno\\a");
-    System.out.printf("\ncat\tgato");
-    System.out.printf("\npenguin\tpingüino");
-    System.out.printf("\nmachine\tmáquina");
-    System.out.printf("\nnature\tnaturaleza");
-    System.out.printf("\nlight\tluz");
-    System.out.printf("\ngreen\tverde");
-    System.out.printf("\nbook\tlibro");
-    System.out.printf("\npyramid\tpirámide");
+    System.out.print("\ncomputerordenador");
+    System.out.print("\nstudent\talumno\\a");
+    System.out.print("\ncat\tgato");
+    System.out.print("\npenguin\tpingüino");
+    System.out.print("\nmachine\tmáquina");
+    System.out.print("\nnature\tnaturaleza");
+    System.out.print("\nlight\tluz");
+    System.out.print("\ngreen\tverde");
+    System.out.print("\nbook\tlibro");
+    System.out.print("\npyramid\tpirámide");
   }
 }
