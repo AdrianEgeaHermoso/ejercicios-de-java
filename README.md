@@ -1,2 +1,3 @@
 # ejercicios-de-java
-Ejercicios de Clase de Java
+
+Ejercicios de clase en Java, asignatura **Programacion**.
