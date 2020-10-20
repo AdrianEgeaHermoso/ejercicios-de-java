@@ -2,7 +2,7 @@
  * 2. Variables
  *
  * 1. Escribe un programa en el que se declaren las variables enteras x
- *    e y. Asignales los valores 144 y 999 respectivamente. A continuación,
+ *    e y. Asignales los valores 444 y 211 respectivamente. A continuación,
  *    muestra por pantalla el valor de cada variable, la suma, la resta,
  *    la división y la multiplicación.
  *
