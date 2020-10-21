@@ -17,7 +17,7 @@ public class Ejercicio1Variables {
     System.out.println("y = " + y);
     System.out.println("x + y = " + (x + y));
     System.out.println("x - y = " + (x - y));
-    System.out.println("x / y = " + ((float)x / (float)y));
+    System.out.println("x / y = " + ((double)x / (double)y));
     System.out.println("x * y = " + (x * y));
   }
 }
