@@ -20,7 +20,7 @@ public class Ejercicio04Sueldo {
     if (horas <= 40) {
       sueldoSemanal = 12 * horas;
     } else {
-      sueldoSemanal = (horas * 12) + ((horas - 40) * 16);
+      sueldoSemanal = (40 * 12) + ((horas - 40) * 16);
     }
     System.out.println("El sueldo semanal que se le abonará es de  " + sueldoSemanal + " euros");
   }
