@@ -10,7 +10,7 @@ public class Ejercicio01Multiplos {
 
   public static void main(String[] args) {
     
-    for(int multiplo=0; multiplo < 100; multiplo += 5)
+    for(int multiplo = 0; multiplo < 100; multiplo += 5)
     System.out.println(multiplo);
     
   }
