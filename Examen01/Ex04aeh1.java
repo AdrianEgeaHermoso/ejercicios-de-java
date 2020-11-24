@@ -8,7 +8,7 @@ package examenreal;
 import java.util.Scanner;
 /**
  *
- * @author alumno
+ * @author Adrián Egea Hermoso
  */
 public class Ex04aeh1 {
 
@@ -33,21 +33,21 @@ public class Ex04aeh1 {
       }while (!datosValidos);
     
     //parte superior
-    System.out.println("\n*    *   ****   *    ****");
+    System.out.println("\n*    *   ****   *     ****");
     
     for (int i = 0; i < (altura -3) / 2; i++ ){
-      System.out.println("*    *   *  *   *    *  *");
+      System.out.println("*    *  *    *  *    *    *");
     }
     //parte central
-    System.out.println("******  *    *  *    *   *");
+    System.out.println("******  *    *  *    ******");
     
     
     //parte inferior
     for (int i = 0; i < (altura -3) / 2; i++ ){
-      System.out.println("*    *   *  *   *    *  *");
+      System.out.println("*    *  *    *  *    *    *");
     }
     
-    System.out.println("*    *   ****  ****  *   *");
+    System.out.println("*    *   ****   **** *    *");
     
   }
   
