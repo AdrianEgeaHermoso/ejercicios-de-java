@@ -1,5 +1,4 @@
 /**
- * 7.1 Arrays
  * 
  * 1. Define un array de 12 números enteros con nombre num y asigna los valores
  *    según la tabla que se muestra a continuación. Muestra el contenido de todos
@@ -27,6 +26,5 @@ public class Ejercicio01Arrays {
         System.out.printf("num[%2d]: %d\n", i, num[i]);
       }
       
-  // Se puede observar que los valores del array se inicializan automáticamente a 0.
   }
 }
