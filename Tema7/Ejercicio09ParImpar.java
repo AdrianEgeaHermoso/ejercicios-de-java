@@ -18,11 +18,12 @@ public class Ejercicio09ParImpar {
       numero[i] = Integer.parseInt(System.console().readLine());
     }
 
-    for (i = 0; i < 8; i++) {
-      if (numero[i] % 2 == 0) {
-        System.out.println(numero[i] + " par");
-      } else {
-        System.out.println(numero[i] + " impar");
+    for (int n:numero) {
+      
+      if (n % 2 == 0) {
+        System.out.println(n + " par");
+      }else {
+        System.out.println(n + " impar");
       }
     }
   }
