@@ -5,11 +5,8 @@
  */
 package misfunciones;
 
-import static misfunciones.MisFunciones.cuentaDigitos;
-import static misfunciones.MisFunciones.esCapicua;
-import static misfunciones.MisFunciones.esPrimo;
-import static misfunciones.MisFunciones.lineaPersonalizada;
 
+import misfunciones.MisFunciones;
 
 /**
  *
@@ -21,14 +18,18 @@ public class Pruebas {
    * @param args the command line arguments
    */
   public static void main(String[] args) {
-    System.out.println(cuentaDigitos(84654648));
-    System.out.println(esPrimo(7));
-    System.out.println(lineaPersonalizada(12,'w'));
-    if (esCapicua(657)) {
+    System.out.println(MisFunciones.cuentaDigitos(84654648));
+    System.out.println(MisFunciones.digitoN(84654648,4));
+    System.out.println(MisFunciones.esPrimo(7));
+    System.out.println(MisFunciones.trozoDeNumero(34347546,0,5));
+    System.out.println(MisFunciones.quitaRepetidos(7475787));
+    System.out.println(MisFunciones.lineaPersonalizada(12,'w'));
+    if (MisFunciones.esCapicua(657)) {
       System.out.println("El 656 es capicúa");
     }
     else {
-      System.out.println("No es capicua");}
+      System.out.println("No es capicua");
+    }
   }
   
 }
